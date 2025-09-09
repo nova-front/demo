@@ -4,7 +4,7 @@ import {
   TextAreaCore,
   TextAreaUndo,
   TextAreaUndoHandle,
-} from '@nova-fe/editor';
+} from '@nova-fe/textarea';
 import DemoSection from '../../components/DemoSection';
 
 const BasicEditor: React.FC = () => {
@@ -16,7 +16,7 @@ const BasicEditor: React.FC = () => {
       <DemoSection
         title="📝 基础 TextArea（非受控）"
         description="最简单的 TextArea 使用方式，支持基本的文本编辑功能"
-        code={`import { TextArea } from "@nova-fe/editor";
+        code={`import { TextArea } from "@nova-fe/textarea";
 
 <TextArea placeholder="请输入内容..." />`}
       >
@@ -99,7 +99,7 @@ const BasicEditor: React.FC = () => {
       <DemoSection
         title="🔧 核心 TextArea 组件"
         description="TextAreaCore 专注于文本编辑功能，不包含拼写检查，性能更优"
-        code={`import { TextAreaCore } from "@nova-fe/editor";
+        code={`import { TextAreaCore } from "@nova-fe/textarea";
 
 <TextAreaCore
   placeholder="核心 TextArea 组件"
@@ -140,7 +140,7 @@ const BasicEditor: React.FC = () => {
       <DemoSection
         title="↩️ 撤销重做 TextArea"
         description="TextAreaUndo 提供完整的撤销重做功能，支持键盘快捷键和手动触发"
-        code={`import { TextAreaUndo, TextAreaUndoHandle } from "@nova-fe/editor";
+        code={`import { TextAreaUndo, TextAreaUndoHandle } from "@nova-fe/textarea";
 
 const undoableEditorRef = useRef<TextAreaUndoHandle>(null);
 

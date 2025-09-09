@@ -12,7 +12,7 @@ const EditorLayout: React.FC = () => {
   return (
     <div>
       <div className="page-header">
-        <h1 className="page-title">@nova-fe/editor</h1>
+        <h1 className="page-title">@nova-fe/textarea</h1>
         <p className="page-description">
           一个基于 React 的高性能 TextArea，支持拼写检查、撤销重做等功能。
         </p>

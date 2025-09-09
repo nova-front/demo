@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@nova-fe/base-ui": "*",
-    "@nova-fe/editor": "*",
-    "@nova-fe/utils": "*",
+    "@nova-fe/base-ui": "^1.0.5",
+    "@nova-fe/textarea": "^1.0.0",
+    "@nova-fe/utils": "^1.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.6.0"
