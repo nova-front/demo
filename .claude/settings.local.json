@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/leslie/Work/project/nova-front/demo/node_modules -path *nova-fe*textarea* -name package.json)",
+      "Read(//Users/leslie/Work/project/nova-front/**)"
+    ]
+  }
+}
